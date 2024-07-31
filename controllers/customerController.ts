@@ -1,4 +1,4 @@
-import { Customer } from "../db/entities/customer.js"
+import { Customer } from "../db/entities/Customer.js"
 import { AppError } from "../errors/appError.js";
 import { Request, Response } from "express"
 

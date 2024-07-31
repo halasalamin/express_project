@@ -2,7 +2,7 @@ import { Request, Response, Express } from "express";
 import express from 'express'
 import  env  from "dotenv";
 import dataSource from "./db/dbConfig.js";
-import customerRouter from "./routes/router.js";
+import customerRouter from "./routes/customerRouter.js";
 import { customErrorHandler, DefaultErrorHandler } from "./middleware/errorHandler.js";
 
 
